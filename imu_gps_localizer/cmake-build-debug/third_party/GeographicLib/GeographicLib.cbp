@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GeographicLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third_party\;CMake Files\third_party\GeographicLib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libGeographiccc">
+				<Option output="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/liblibGeographiccc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/third_party/GeographicLib/./include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 libGeographiccc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libGeographiccc/fast">
+				<Option output="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/liblibGeographiccc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/third_party/GeographicLib/./include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 libGeographiccc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/cmake-build-debug/third_party/GeographicLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/third_party/GeographicLib/src/Geocentric.cpp">
+			<Option target="libGeographiccc"/>
+		</Unit>
+		<Unit filename="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/third_party/GeographicLib/src/LocalCartesian.cpp">
+			<Option target="libGeographiccc"/>
+		</Unit>
+		<Unit filename="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/third_party/GeographicLib/src/Math.cpp">
+			<Option target="libGeographiccc"/>
+		</Unit>
+		<Unit filename="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gao/Cpp_Projects/imu_gps_localization-master/imu_gps_localizer/third_party/GeographicLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\GeographicLib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

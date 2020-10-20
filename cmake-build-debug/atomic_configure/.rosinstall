@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gao/catkin_ws/src/imu_gps_localization-master/cmake-build-debug/devel/setup.sh

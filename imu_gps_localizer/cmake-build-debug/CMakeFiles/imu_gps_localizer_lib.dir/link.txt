@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimu_gps_localizer_lib.a  CMakeFiles/imu_gps_localizer_lib.dir/src/imu_gps_localizer.cpp.o CMakeFiles/imu_gps_localizer_lib.dir/src/initializer.cpp.o CMakeFiles/imu_gps_localizer_lib.dir/src/imu_processor.cpp.o CMakeFiles/imu_gps_localizer_lib.dir/src/gps_processor.cpp.o
+/usr/bin/ranlib libimu_gps_localizer_lib.a
